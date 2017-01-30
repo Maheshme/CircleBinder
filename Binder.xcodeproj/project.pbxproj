@@ -13,6 +13,7 @@
 		3D3082801E30BB7F0008171C /* BinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D30827F1E30BB7F0008171C /* BinderTests.swift */; };
 		3D30828B1E30BB7F0008171C /* BinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D30828A1E30BB7F0008171C /* BinderUITests.swift */; };
 		3D30829A1E30BD700008171C /* Bind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3082991E30BD700008171C /* Bind.swift */; };
+		3D3215481E3F06A5003ACC20 /* CurveBinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3215471E3F06A5003ACC20 /* CurveBinder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		3D30828A1E30BB7F0008171C /* BinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinderUITests.swift; sourceTree = "<group>"; };
 		3D30828C1E30BB7F0008171C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D3082991E30BD700008171C /* Bind.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bind.swift; sourceTree = "<group>"; };
+		3D3215471E3F06A5003ACC20 /* CurveBinder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurveBinder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 				3D30826A1E30BB7F0008171C /* AppDelegate.swift */,
 				3D30826C1E30BB7F0008171C /* ViewController.swift */,
 				3D3082991E30BD700008171C /* Bind.swift */,
+				3D3215471E3F06A5003ACC20 /* CurveBinder.swift */,
 			);
 			path = Binder;
 			sourceTree = "<group>";
@@ -267,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D30826D1E30BB7F0008171C /* ViewController.swift in Sources */,
+				3D3215481E3F06A5003ACC20 /* CurveBinder.swift in Sources */,
 				3D30829A1E30BD700008171C /* Bind.swift in Sources */,
 				3D30826B1E30BB7F0008171C /* AppDelegate.swift in Sources */,
 			);
@@ -500,6 +504,7 @@
 				3D3082911E30BB7F0008171C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3D3082921E30BB7F0008171C /* Build configuration list for PBXNativeTarget "BinderTests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +513,7 @@
 				3D3082941E30BB7F0008171C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3D3082951E30BB7F0008171C /* Build configuration list for PBXNativeTarget "BinderUITests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +522,7 @@
 				3D3082971E30BB7F0008171C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
