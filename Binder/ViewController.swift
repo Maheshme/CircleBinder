@@ -9,7 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+//testcommit
     var bind: Bind!
     var curveBinder: CurveBinder!
     
