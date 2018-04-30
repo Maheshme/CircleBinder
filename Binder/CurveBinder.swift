@@ -10,6 +10,7 @@ import UIKit
 
 class CurveBinder: UIView {
 
+    //commited changes
     var curveLayer: CAShapeLayer!
     var curvePath: UIBezierPath!
     var boundedButton: UIButton!
